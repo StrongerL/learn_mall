@@ -6,7 +6,7 @@ import org.stronger.learn_mall.mbg.model.PmsBrand;
 import org.stronger.learn_mall.mbg.model.PmsBrandExample;
 
 public interface PmsBrandMapper {
-    int countByExample(PmsBrandExample example);
+    long countByExample(PmsBrandExample example);
 
     int deleteByExample(PmsBrandExample example);
 

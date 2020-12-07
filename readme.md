@@ -1,3 +1,5 @@
+
+
 ## 目的
 
 该项目用于本人学习[mall](https://github.com/macrozheng/mall)。  
@@ -5,4 +7,36 @@
 ## 2020/11/25  
 
 搭建项目框架，配置swagger。mybatis为类生成swagger注解时出错，问题还未找出。  
+
+## 2020/12/07
+
+之前整合了redis，忘记记录了，今天完成了以下部分。
+
+### mall整合SpringSecurity和JWT实现认证和授权
+
+教程中缺失的部分：
+
+- mybatis generator配置文件修改；
+
+- pom.xml中，添加的依赖可能少了一项；
+
+  ```xml
+  <dependency>
+      <groupId>org.hibernate</groupId>
+      <artifactId>hibernate-validator</artifactId>
+      <version>5.0.2.Final</version>
+  </dependency>
+  ```
+
+- 在application.yml中添加# 自定义jwt key；
+
+- 添加UmsAdminLoginParam类；
+
+- UmsAdminRoleRelationDao的添加；
+
+  - 添加类文件；
+  - 添加xml文件；
+  - MyBatisConfig中添加扫描的包。
+
+- 数据库问题，ums_admin_role_relation表中将test也设置为了超级管理员；此外ums_role_permission_relation表中，没有设置超级管理员的权限。
 
