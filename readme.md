@@ -18,6 +18,7 @@
 - JWT
 - SpringSecurity
 - SpringTask
+- Elasticsearch
 
 
 
@@ -56,4 +57,20 @@
   - MyBatisConfig中添加扫描的包。
 
 - 数据库问题，ums_admin_role_relation表中将test也设置为了超级管理员；此外ums_role_permission_relation表中，没有设置超级管理员的权限。
+
+### mall整合SpringTask实现定时任务
+
+按照教程进行。
+
+### mall整合Elasticsearch实现商品搜索
+
+遇到的问题：
+
+- 版本问题，我使用了elasticsearch7.6.2和kibana7.6.2，但是springboot2.4.0废弃了一些相关语法，所以我将springboot版本修改为了2.3.0.RELEASE。
+
+教程中缺失的部分：
+
+- EsProductDao类的添加
+  - 添加类文件；
+  - 添加xml文件。
 

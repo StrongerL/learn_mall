@@ -5,7 +5,7 @@
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
-        <version>2.4.0</version>
+        <version>2.3.0.RELEASE</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>org.stronger</groupId>
@@ -101,6 +101,15 @@
             <artifactId>hibernate-validator</artifactId>
             <version>5.0.2.Final</version>
         </dependency>
+
+        <!--=====================mall整合Elasticsearch实现商品搜索=========================================-->
+        <!--Elasticsearch相关依赖-->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-data-elasticsearch</artifactId>
+        </dependency>
+
+
 
     </dependencies>
 
