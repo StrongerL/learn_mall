@@ -35,6 +35,9 @@ H:\MongoDB\bin\mongod.exe --remove
 - SpringTask
 - Elasticsearch
 - Kibana
+- MondoDB
+- RabbitMQ
+- Lombok
 
 
 
@@ -93,4 +96,12 @@ H:\MongoDB\bin\mongod.exe --remove
 ### mall整合Mongodb实现文档操作
 
 按照教程进行。
+
+### mall整合RabbitMQ实现延迟消息
+
+教程中缺失的部分：
+
+- 添加OrderParam类
+
+
 
