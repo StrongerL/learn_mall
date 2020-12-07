@@ -4,6 +4,23 @@
 
 该项目用于本人学习[mall](https://github.com/macrozheng/mall)。  
 
+## 几项常用的信息
+
+常用账户的账号密码
+
+| 账号  | 密码     |
+| ----- | -------- |
+| test  | 123456   |
+| admin | macro123 |
+
+## 需要去学习的知识
+
+- JWT
+- SpringSecurity
+- SpringTask
+
+
+
 ## 2020/11/25  
 
 搭建项目框架，配置swagger。mybatis为类生成swagger注解时出错，问题还未找出。  
