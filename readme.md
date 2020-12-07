@@ -6,12 +6,27 @@
 
 ## 几项常用的信息
 
-常用账户的账号密码
+### 常用账户的账号密码
 
 | 账号  | 密码     |
 | ----- | -------- |
 | test  | 123456   |
 | admin | macro123 |
+
+### MongoDB命令
+
+```cmd
+# 安装服务：
+H:\MongoDB\bin\mongod.exe --config "H:\MongoDB\mongod.cfg" --install
+# 启动服务：
+net start MongoDB
+# 关闭服务：
+net stop MongoDB
+# 移除服务：
+H:\MongoDB\bin\mongod.exe --remove
+```
+
+
 
 ## 需要去学习的知识
 
@@ -19,6 +34,7 @@
 - SpringSecurity
 - SpringTask
 - Elasticsearch
+- Kibana
 
 
 
@@ -73,4 +89,8 @@
 - EsProductDao类的添加
   - 添加类文件；
   - 添加xml文件。
+
+### mall整合Mongodb实现文档操作
+
+按照教程进行。
 
