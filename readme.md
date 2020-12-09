@@ -103,5 +103,13 @@ H:\MongoDB\bin\mongod.exe --remove
 
 - 添加OrderParam类
 
+### mall整合OSS实现文件上传
 
+教程中缺失的部分：
+
+- 使用前端测试时的跨域问题；
+
+  参考教程中[前后端分离项目，如何解决跨域问题](http://www.macrozheng.com/#/technology/springboot_cors)。
+
+- 暂时应该还无法使用前端测试，因为很多后端api还没有写。
 
